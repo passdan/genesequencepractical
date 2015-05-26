@@ -1,0 +1,13 @@
+TGGAGCAT	Attached Earlobes
+AATAACAT	Detached Earlobes
+GTGGATGG	Brown Eyes
+CCAGTGGT	Blue Eyes
+CGGTTGCT	Green Eyes
+ACATTCCT	Curly Hair
+GCCGCAAC	Straight Hair
+GTTGAAGG	Blonde Hair
+TCCCGGAT	Brown Hair
+TAGACTGG	Black Hair
+CTGGATCT	Ginger Hair
+ATGCCGTG	Boy
+ACACCCGT	Girl
