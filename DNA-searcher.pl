@@ -68,19 +68,19 @@ sub restart {
 sub loadGuessWhoDB {
 
   %sequenceDB = (
-  TGGAGCAT => "Attached Earlobes",
-  AATAACAT => "Detached Earlobes",
-  GTGGATGG => "Brown Eyes",
-  CCAGTGGT => "Blue Eyes",
-  CGGTTGCT => "Green Eyes",
-  ACATTCCT => "Curly Hair",
-  GCCGCAAC => "Straight Hair",
-  GTTGAAGG => "Blonde Hair",
-  TCCCGGAT => "Brown Hair",
-  TAGACTGG => "Black Hair",
-  CTGGATCT => "Ginger Hair",
-  ATGCCGTG => "Boy",
-  ACACCCGT => "Girl",
+  TGGAGCATC => "Attached Earlobes",
+  AATAACATG => "Detached Earlobes",
+  GTGGATGGC => "Brown Eyes",
+  CCAGTGGTA => "Blue Eyes",
+  CGGTTGCTA => "Green Eyes",
+  ACATTCCTG => "Curly Hair",
+  GCCGCAACG => "Straight Hair",
+  GTTGAAGGC => "Blonde Hair",
+  TCCCGGATA => "Brown Hair",
+  TAGACTGGC => "Black Hair",
+  CTGGATCTA => "Ginger Hair",
+  ATGCCGTGG => "Boy",
+  ACACCCGTG => "Girl",
   );
   return;
 }
