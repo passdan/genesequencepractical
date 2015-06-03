@@ -1,5 +1,7 @@
-# Gene Sequence Practical
+# DNA and Gene Sequence Practical - Guess Who!
 Mini practical session for 11-16 year olds about how we learn about the DNA sequence of genes. Estimated time: 15 minutes, expandable to 1 hour.
+
+![Practical setup](genesequencepractical/Images/2-Gene_staging_area.jpg)
 
 <h3>Objectives</h3>
 * Learn about how DNA is made up of 4 different bases and different sections make up <b>Genes</b>
