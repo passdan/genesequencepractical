@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>DNA and Gene Sequence Practical - Guess Who! by passdan</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">DNA and Gene Sequence Practical - Guess Who!</h1>
+        <p class="header">Mini practical session for 11-16 year olds about the DNA sequence of genes.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/passdan/genesequencepractical/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/passdan/genesequencepractical/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/passdan/genesequencepractical">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/passdan">passdan</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="dna-and-gene-sequence-practical---guess-who" class="anchor" href="#dna-and-gene-sequence-practical---guess-who" aria-hidden="true"><span class="octicon octicon-link"></span></a>DNA and Gene Sequence Practical - Guess Who!</h1>
+
+<p>Mini practical session for 11-16 year olds about how we learn about the DNA sequence of genes. Estimated time: 15 minutes, expandable to 1 hour.
+Full documentation below!</p>
+
+<p><img src="images/0-composite_images.jpg" alt="Practical setup"></p>
+
+<h3>
+<a id="objectives" class="anchor" href="#objectives" aria-hidden="true"><span class="octicon octicon-link"></span></a>Objectives</h3>
+
+<ul>
+<li>Learn about how DNA is made up of 4 different bases and different sections make up <b>Genes</b>.</li>
+<li>Learn how different versions of genes control how people/animals/plants look and work.</li>
+<li>Learn how we can sequence and read DNA to find out what our Guess Who subject looks like!</li>
+</ul>
+
+<h3>
+<a id="resources-and-setup" class="anchor" href="#resources-and-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources and setup</h3>
+
+<ul>
+<li>4 colours of ball-pit balls (approximately 5 of each).</li>
+<li>Staging area for 9 balls (perhaps cut into 3x3 for explaining codons).</li>
+<li>Computer/laptop for searching the sequence against database (Raspberri Pi is perfect, Mac works too, PCs need more setup).</li>
+<li>Print, laminate and cut out Gene cards and face parts (for human Guess Who).</li>
+<li>Blutack/velcro.</li>
+<li>NOTE: We used images from shutterstock which we can't share for copyright reasons from <a href="http://www.shutterstock.com/pic-163929290/stock-vector-fashion-male-avatars-hairstyles-and-eyes-in-different-colors-mouths-noses-glasses.html">Here</a> and <a href="http://www.shutterstock.com/pic-170343836/stock-vector-fashion-female-avatars-hairstyles-eyes-mouths-head-for-multiple-combinations-in.html">Here</a>. An alternative is to have the kids draw faces themselves and compare at the end, or be a better artist than me and create them yourself!</li>
+</ul>
+
+<h3>
+<a id="computer-setup" class="anchor" href="#computer-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Computer Setup</h3>
+
+<ul>
+<li>Copy the DNA-searcher.pl program onto your computer and run it (It helps to zoom the screen in). The first argument is an alternate dataset if being used.</li>
+<li>If you are not used to running command line programs follow these steps:
+
+<ul>
+<li>Save the program to your home directory.</li>
+<li>Open the <em>terminal</em> program (Remember this will need a linux (including R-pi) or Mac computer to work easily. A PC will need more setup).</li>
+<li>Type <code>ls</code>. You should see the <code>./DNA-searcher.pl</code> listed there. If it is not there, type <code>pwd</code> and move the program to the location that it shows you.</li>
+<li>Type <code>perl DNA-searcher.pl</code>
+</li>
+</ul>
+</li>
+<li>DONE!</li>
+<li>There is a short PDF file (DNA_Guess_who.pdf) which explains what DNA, genes and the 4 bases are, and the aim of the session. You may want to copy that over if you think it would be useful.</li>
+</ul>
+
+<h3>
+<a id="running-the-session" class="anchor" href="#running-the-session" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running the session</h3>
+
+<p>After a brief intro, the session follows these stages. Usually I assign one kid to each stage and then rotate roles but alternatively each child could do the full run with their gene:</p>
+
+<ul>
+<li>Select one varient/allele/type of gene from each 'genepool'.</li>
+<li>Generate the DNA sequence of your gene with the coloured balls on the stand ('zooming in on the gene')</li>
+<li>Using the 'laser-decoder', translate the coloured balls into DNA bases (saying it out loud)</li>
+<li>Type the sequence into the computer program as the decoder reads it out</li>
+<li>Search the sequence and add to the diagram that is forming!</li>
+</ul>
+
+<p>Hopefully this may be of use to some people. On the first day I had one "This is really cool", one that wanted to see how the program was made, and generally them all wanting to do the different roles.</p>
+
+<p>There is also the ability to load in other datasets than just 'Human Faces' (default). Some ideas were 'see what food this animal has been eating from it's poo' or 'create an animal', and is simple to modify.</p>
+
+<p>Comments appreciated.
+Daniel</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-42005693-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
