@@ -1,6 +1,6 @@
 # DNA and Gene Sequence Practical - Guess Who!
 Mini practical session for 11-16 year olds about how we learn about the DNA sequence of genes. Estimated time: 15 minutes, expandable to 1 hour.
-Full documentation below!
+Full documentation below! (Or to jump straight to the perl script [here](https://github.com/passdan/genesequencepractical/blob/master/DNA-searcher.pl)!
 
 ![Practical setup](images/0-composite_images.jpg)
 
