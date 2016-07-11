@@ -26,7 +26,7 @@ foreach my $key (sort { $sequenceDB{$a} cmp $sequenceDB{$b} } keys %sequenceDB){
 }
 sleep(2);
 
-my $prompt = "\n#######################################################\n## Type a DNA sequence to search for what gene it is ##\n#######################################################\n\nInput: ";
+my $prompt = "\n#######################################################\n## Type a DNA sequence to search for what gene it is from ##\n#######################################################\n\nInput: ";
 
 system("clear");
 print $prompt;
@@ -38,7 +38,7 @@ while (my $seq = <STDIN>){
     print "Searching: 0%"; sleep(1);
     while ($n < 100){ $n+=25; print "----$n%";sleep(1);};
     my $genestring = $sequenceDB{$seq};
-    print "\n\nThis DNA sequence is the gene for:  "; sleep(1);
+    print "\n\nThis DNA sequence is found in the gene for:  "; sleep(1);
     foreach (split //, $genestring){
       print;
       select(undef, undef, undef, 0.1);
