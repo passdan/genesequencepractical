@@ -68,19 +68,21 @@ sub restart {
 sub loadGuessWhoDB {
 
   %sequenceDB = (
-  TGGAGCATC => "Attached Earlobes",
-  AATAACATG => "Detached Earlobes",
-  GTGGATGGC => "Brown Eyes",
-  CCAGTGGTA => "Blue Eyes",
-  CGGTTGCTA => "Green Eyes",
-  ACATTCCTG => "Curly Hair",
-  GCCGCAACG => "Straight Hair",
-  GTTGAAGGC => "Blonde Hair",
-  TCCCGGATA => "Brown Hair",
-  TAGACTGGC => "Black Hair",
-  CTGGATCTA => "Ginger Hair",
-  ATGCCGTGG => "Boy",
-  ACACCCGTG => "Girl",
+  TAGTGGAGCATC => "Attached Earlobes",      #Ears
+  CGGAATAACATG => "Detached Earlobes",      #Ears
+  CCAGTGGATGGC => "Brown Eyes",             #Eyes
+  AGTCCAGTGGTA => "Blue Eyes",              #Eyes
+  CAGCGGTTGCTA => "Green Eyes",             #Eyes
+  GGGACATTCCTG => "Curly Hair",             #Hair Type
+  TTAGCCGCAACG => "Straight Hair",          #Hair Type
+  TATGTTGAAGGC => "Blonde Hair",            #Hair Colour
+  AACTCCCGGATA => "Brown Hair",             #Hair Colour
+  TGATAGACTGGC => "Black Hair",             #Hair Colour
+  CCACTGGATCTA => "Ginger Hair",            #Hair Colour
+  GTGATGCCGTGG => "Boy",                    #Sex
+  AATACACCCGTG => "Girl",                   #Sex
+  GAGTAACGCATC => "Doesn't need glasses"    #Eyesight
+  GTCTCCGATATG => "Needs glasses"           #Eyesight
   );
   return;
 }
