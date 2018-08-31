@@ -5,11 +5,13 @@ Full documentation below! (Or to jump straight to the perl script [here](https:/
 ![Practical setup](images/0-composite_images.jpg)
 
 <h3>Objectives</h3>
+
 * Learn about how DNA is made up of 4 different bases and different sections make up <b>Genes</b>.
 * Learn how different versions of genes control how people/animals/plants look and work.
 * Learn how we can sequence and read DNA to find out what our Guess Who subject looks like!
 
 <h3>Resources and setup</h3>
+
 * 4 colours of ball-pit balls or 3D printed units (approximately 6 of each).
 * Staging area for 12 balls/units (In 3 base blocks for explaining codons if required).
 * Computer/laptop for searching the sequence against database (Raspberri Pi is perfect, Mac works too, PCs need more setup).
@@ -19,6 +21,7 @@ Full documentation below! (Or to jump straight to the perl script [here](https:/
 
 
 <h3>Computer Setup</h3>
+
 * Copy the DNA-searcher.pl program onto your computer and run it (It helps to zoom the screen in). The first argument is an alternate dataset if being used.
 * If you are not used to running command line programs follow these steps:
  - Save the program to your home directory.
@@ -29,6 +32,7 @@ Full documentation below! (Or to jump straight to the perl script [here](https:/
 * There is a short PDF file (DNA_Guess_who.pdf) which explains what DNA, genes and the 4 bases are, and the aim of the session. You may want to copy that over if you think it would be useful.
 
 <h3>Running the session</h3>
+
 After a brief intro, the session follows these stages. Usually I assign one kid to each stage and then rotate roles but alternatively each child could do the full run with their gene:
 * Select one varient/allele/type of gene from each 'genepool'.
 * Generate the DNA sequence of your gene with the coloured balls/units on the stand ('zooming in on the gene')
